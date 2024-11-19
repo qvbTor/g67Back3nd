@@ -211,17 +211,21 @@ def calculate_body_measurements(keypoints):
     neck_length = calculate_distance(left_shoulder, right_shoulder) * 0.25  # Approximate
     neck_circumference = neck_length * 3.14  # Using the neck length to estimate circumference
 
+    reco = left_arm_length*1.1
+    reco1 = chest_circumference*1.1
     measurements = {
-        "Chest Circumference(cm)": chest_circumference,
-        "Waist Circumference(cm)": waist_circumference,
-        "Hip Circumference(cm)": hip_circumference,
-        "Inseam Length(cm)": inseam_length,
-        "Left Arm Length(cm)": left_arm_length,
-        "Right Arm Length(cm)": right_arm_length,
-        "Shoulder Length(cm)": shoulder_length,
-        "Left Thigh Circumference(cm)": left_thigh_circumference,
-        "Right Thigh Circumference(cm)": right_thigh_circumference,
-        "Neck Circumference(cm)": neck_circumference
+        "A. Chest Circumference(cm)": chest_circumference,
+        "B. Waist Circumference(cm)": waist_circumference,
+        "C. Hip Circumference(cm)": hip_circumference,
+        "D. Inseam Length(cm)": inseam_length,
+        "E. Left Arm Length(cm)": left_arm_length,
+        "F. Right Arm Length(cm)": right_arm_length,
+        "G. Shoulder Length(cm)": shoulder_length,
+        "H. Left Thigh Circumference(cm)": left_thigh_circumference,
+        "I. Right Thigh Circumference(cm)": right_thigh_circumference,
+        "J. Neck Circumference(cm)": neck_circumference,
+        "K. Recommended width in cm: ": reco,
+        "L. Recommended length in cm: ": reco1
     }
 
     return measurements
