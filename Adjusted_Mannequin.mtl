@@ -1,0 +1,119 @@
+# Blender 4.2.2 LTS MTL File: 'test.blend'
+# www.blender.org
+
+newmtl Adjustable_Mannequin
+Ns 159.999985
+Ka 1.000000 1.000000 1.000000
+Kd 0.010417 0.145154 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Back
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/PC/Desktop/uploads_files_4391668_Shirt+OBJ/Shirt OBJ/I:/3D Models For Sales/Outfits/Shirt/Custom Textures/Shirt Custom Textures/Shirt Back/Shirt Back_Diffuse.jpg
+map_Bump C:/Users/PC/Desktop/uploads_files_4391668_Shirt+OBJ/Shirt OBJ/I:/3D Models For Sales/Outfits/Shirt/Custom Textures/Shirt Custom Textures/Shirt Back/Shirt Back_Normal.jpg
+
+newmtl Bottons
+Ns 32.000008
+Ka 1.000000 1.000000 1.000000
+Kd 0.039200 0.043100 0.043100
+Ks 0.792000 0.792000 0.792000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Bottons_Threads
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.054900 0.070600 0.070600
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+
+newmtl Cuffs_Boundry
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/PC/Desktop/uploads_files_4391668_Shirt+OBJ/Shirt OBJ/I:/3D Models For Sales/Outfits/Shirt/Custom Textures/Shirt Custom Textures/Base Textures/Shirt Texture Black_Diffuse.jpg
+map_Bump C:/Users/PC/Desktop/uploads_files_4391668_Shirt+OBJ/Shirt OBJ/I:/3D Models For Sales/Outfits/Shirt/Custom Textures/Shirt Custom Textures/Base Textures/Shirt Texture Black_Normal.jpg
+
+newmtl Cycles_Outline
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Front
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/PC/Desktop/uploads_files_4391668_Shirt+OBJ/Shirt OBJ/I:/3D Models For Sales/Outfits/Shirt/Custom Textures/Shirt Custom Textures/Shirt Front/Shirt Front_Diffuse.jpg
+map_Bump C:/Users/PC/Desktop/uploads_files_4391668_Shirt+OBJ/Shirt OBJ/I:/3D Models For Sales/Outfits/Shirt/Custom Textures/Shirt Custom Textures/Shirt Front/Shirt Front_Normal.jpg
+
+newmtl Pockert_Boundry
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/PC/Desktop/uploads_files_4391668_Shirt+OBJ/Shirt OBJ/I:/3D Models For Sales/Outfits/Shirt/Custom Textures/Shirt Custom Textures/Shirt Front/Shirt Front_Diffuse.jpg
+map_Bump C:/Users/PC/Desktop/uploads_files_4391668_Shirt+OBJ/Shirt OBJ/I:/3D Models For Sales/Outfits/Shirt/Custom Textures/Shirt Custom Textures/Shirt Front/Shirt Front_Normal.jpg
+
+newmtl Shirt_Middle_Boundry
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/PC/Desktop/uploads_files_4391668_Shirt+OBJ/Shirt OBJ/I:/3D Models For Sales/Outfits/Shirt/Custom Textures/Shirt Custom Textures/Shirt Front/Shirt Front_Diffuse.jpg
+map_Bump C:/Users/PC/Desktop/uploads_files_4391668_Shirt+OBJ/Shirt OBJ/I:/3D Models For Sales/Outfits/Shirt/Custom Textures/Shirt Custom Textures/Shirt Front/Shirt Front_Normal.jpg
+
+newmtl Sleeve_Left
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/PC/Desktop/uploads_files_4391668_Shirt+OBJ/Shirt OBJ/I:/3D Models For Sales/Outfits/Shirt/Custom Textures/Shirt Custom Textures/Left Sleeve/Left Sleeve_Diffuse.jpg
+map_Bump C:/Users/PC/Desktop/uploads_files_4391668_Shirt+OBJ/Shirt OBJ/I:/3D Models For Sales/Outfits/Shirt/Custom Textures/Shirt Custom Textures/Left Sleeve/Left Sleeve_Normal.jpg
+
+newmtl Sleeve_Right
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/PC/Desktop/uploads_files_4391668_Shirt+OBJ/Shirt OBJ/I:/3D Models For Sales/Outfits/Shirt/Custom Textures/Shirt Custom Textures/Right Sleeve/Right Sleeve_Diffuse.jpg
+map_Bump C:/Users/PC/Desktop/uploads_files_4391668_Shirt+OBJ/Shirt OBJ/I:/3D Models For Sales/Outfits/Shirt/Custom Textures/Shirt Custom Textures/Right Sleeve/Right Sleeve_Normal.jpg

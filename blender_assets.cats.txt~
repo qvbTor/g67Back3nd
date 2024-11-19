@@ -1,0 +1,10 @@
+# This is an Asset Catalog Definition file for Blender.
+#
+# Empty lines and lines starting with `#` will be ignored.
+# The first non-ignored line should be the version indicator.
+# Other lines are of the format "UUID:catalog/path/for/assets:simple catalog name"
+
+VERSION 1
+
+16bb4555-1267-4f09-851a-3d37b069f814:AM Poses:AM Poses
+805065bf-ef2a-47a2-83d1-974580931493:AM Presets:AM Presets
