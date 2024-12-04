@@ -36,7 +36,7 @@ def generate_model():
         print("WOW: ", normalized_measurements)
         print("Received normalized measurements:", normalized_measurements)
         # Write normalized_measurements to a text file
-        measurements_file = r"C:\Users\PC\Desktop\sdsds\g67Backend-main1\normalized_measurements.txt"
+        measurements_file = r"C:\Users\PC\Desktop\ sdsds\g67Backend-main1\normalized_measurements.txt"
         try:
             with open(measurements_file, 'w') as file:
                 json.dump(normalized_measurements, file)
@@ -67,34 +67,29 @@ def upload_file():
             return jsonify({'error': 'Missing file or height in request'}), 400
 
         base64_image = data['file']
-        realheightG = float(data['height'])  # User-provided height
-        print("WOWWWWWWWWWWWWWWWWWWWWWWWWWW", realheightG)
+        realheightG = float(data['height'])
         filename = data.get('filename', 'uploaded_image.jpg')
 
+        # Remove the prefix from the Base64 string if it exists
+        if ',' in base64_image:
+            base64_image = base64_image.split(',')[1]
+
+        # Decode the Base64 string
         image_data = base64.b64decode(base64_image)
         filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
-        img_path = "uploads/uploaded_image.jpg"
+
         with open(filepath, 'wb') as f:
             f.write(image_data)
 
+        print(f"Image saved successfully to {filepath}")
+
         normalized_measurements = get_measurements_from_user(realheightG)
-        print("WOW: ", normalized_measurements)
-        print("Received normalized measurements:", normalized_measurements)
-
-        measurements_file = r"C:\Users\PC\Desktop\sdsds\g67Backend-main1\normalized_measurements.txt"
-        try:
-            with open(measurements_file, 'w') as file:
-                json.dump(normalized_measurements, file)
-        except Exception as e:
-            print("Error saving measurements to file:", str(e))
-        print("Received file data:", base64_image[:100])  # Print the first 100 characters of the Base64 string
-
-        # Return normalized_measurements in the response
         return jsonify({
             'message': 'File uploaded successfully',
             'normalized_measurements': normalized_measurements
         }), 200
     except Exception as e:
+        print(f"Error in /upload: {e}")
         return jsonify({'error': str(e)}), 500
 
 
@@ -233,7 +228,7 @@ def calculate_body_measurements(keypoints):
 # Function to accept user input and process the image
 def get_measurements_from_user(real_height):
     """Accept user input for image and height, and generate measurements."""
-    image_path = r"C:\Users\PC\Desktop\sdsds\g67Backend-main1\uploads\462550064_1112784256864921_4481066422507567856_n.jpg"
+    image_path = r"C:\Users\PC\Desktop\sdsds\g67Backend-main1\uploads\uploaded_image.jpg"
 
 
     # Process the image and generate measurements

@@ -56,7 +56,8 @@ camera.rotation_euler = direction.to_track_quat('-Z', 'Y').to_euler()
 bpy.context.scene.camera = camera
 
 # Adjust render resolution
-bpy.context.scene.render.resolution_x = 1920
+bpy.context.scene.render.resolution_x = \
+    0
 bpy.context.scene.render.resolution_y = 1080
 bpy.context.scene.render.resolution_percentage = 100
 
